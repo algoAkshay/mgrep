@@ -1,0 +1,27 @@
+# compiled output
+*.o
+*.obj
+*.d
+*.exe
+*.pdb
+*.ilk
+mgrep
+mgrep_debug
+
+# editor stuff
+.vscode/
+.idea/
+.vs/
+*.user
+
+# local build and test artifacts
+build/
+.final_verify/
+.audit_compare/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# local review reports
+AUDIT.md
+FINAL_VERIFICATION.md
